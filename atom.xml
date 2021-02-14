@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chengdanally.github.io</id>
     <title>个人纪录</title>
-    <updated>2021-02-14T08:59:45.811Z</updated>
+    <updated>2021-02-14T20:05:35.019Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chengdanally.github.io"/>
     <link rel="self" href="https://chengdanally.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://chengdanally.github.io/images/avatar.png</logo>
     <icon>https://chengdanally.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 个人纪录</rights>
+    <entry>
+        <title type="html"><![CDATA[多线程整理]]></title>
+        <id>https://chengdanally.github.io/0Cv9Wlszt/</id>
+        <link href="https://chengdanally.github.io/0Cv9Wlszt/">
+        </link>
+        <updated>2021-02-14T20:04:49.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何搭建博客]]></title>
         <id>https://chengdanally.github.io/ru-he-da-jian-bo-ke/</id>
