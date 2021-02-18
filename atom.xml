@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chengdanally.github.io</id>
     <title>个人纪录</title>
-    <updated>2021-02-17T11:41:37.206Z</updated>
+    <updated>2021-02-18T13:32:12.411Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chengdanally.github.io"/>
     <link rel="self" href="https://chengdanally.github.io/atom.xml"/>
@@ -16,6 +16,34 @@
         <link href="https://chengdanally.github.io/0Cv9Wlszt/">
         </link>
         <updated>2021-02-14T20:04:49.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>进程：一个进程是一个包含有自身地址的程序，每个独立执行的程序都称为进程，也就是正在执行的程序</li>
+<li>线程的概念：进程里最小的执行单元</li>
+<li>线程的启动方式：<br>
+1）从Thread继承<br>
+2）实现Runnable接口<br>
+3）通过线程池来启动 Executors.newCacheThread</li>
+<li>常用的方法：<br>
+1）sleep<br>
+2）start<br>
+3）interrupt<br>
+4）join: 等待另外一个线程的结束<br>
+5）yield:主动退出，当前线程进去等待队列里，从“运行状态”进入到“就绪状态”</li>
+<li>volatitle<br>
+有2个作用：<br>
+1）保证线程可见性 ：每个线程有自己的工作内存<br>
+2）禁止指令重排序：通过添加内存屏障实现，在写入和读取之前添加内存屏障，来禁止指令重排序</li>
+<li>锁的四种状态：<br>
+1）无锁<br>
+2）偏向锁 （只有一个线程用）<br>
+3）轻量级锁<br>
+4）重量级锁</li>
+<li>CAS机制：<br>
+1）无锁优化 ，其实是Java乐观锁的一种实现机制<br>
+2）CAS(expected,update)<br>
+2）会产生ABA问题：加 version解决</li>
+</ol>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[如何搭建博客]]></title>
