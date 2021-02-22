@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chengdanally.github.io</id>
     <title>个人纪录</title>
-    <updated>2021-02-18T13:37:25.180Z</updated>
+    <updated>2021-02-22T15:31:41.825Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chengdanally.github.io"/>
     <link rel="self" href="https://chengdanally.github.io/atom.xml"/>
@@ -10,6 +10,45 @@
     <logo>https://chengdanally.github.io/images/avatar.png</logo>
     <icon>https://chengdanally.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 个人纪录</rights>
+    <entry>
+        <title type="html"><![CDATA[JSP + SERVLET]]></title>
+        <id>https://chengdanally.github.io/WhyECLRbP/</id>
+        <link href="https://chengdanally.github.io/WhyECLRbP/">
+        </link>
+        <updated>2021-02-22T12:05:27.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[https学习记录]]></title>
+        <id>https://chengdanally.github.io/3uMb6matm/</id>
+        <link href="https://chengdanally.github.io/3uMb6matm/">
+        </link>
+        <updated>2021-02-22T12:03:31.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>
+<p>https 概念：<br>
+https 指 http + ssl(tls)，就是在安全的传输层上发送的http</p>
+</li>
+<li>
+<p>如何保证安全：</p>
+</li>
+<li>
+<p>用户在浏览器发出一个请求的过程：<br>
+即在浏览器中输入 baidu.com 到显示出页面的过程</p>
+<ol>
+<li>域名解析</li>
+<li>拿到服务器IP</li>
+<li>发起TCP 的3次握手</li>
+</ol>
+</li>
+<li>
+<p>https的交互过程</p>
+</li>
+<li>
+<p>通过抓包对请求的分析</p>
+</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[多线程整理]]></title>
         <id>https://chengdanally.github.io/0Cv9Wlszt/</id>
@@ -42,6 +81,8 @@
 1）无锁优化 ，其实是Java乐观锁的一种实现机制<br>
 2）CAS(expected,update)<br>
 2）会产生ABA问题：加 version解决</li>
+<li>ReadWriteLock<br>
+读写锁的概念，其实就是共享锁，排他锁，读的线程多，写的线程不多，效率比较高</li>
 </ol>
 ]]></content>
     </entry>
